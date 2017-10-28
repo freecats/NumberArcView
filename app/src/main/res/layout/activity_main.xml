@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.freecats.numberarcview.view.NumberArcView
+        android:id="@+id/nav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:nav_endColor="#0adeff"
+        app:nav_height="116dp"
+        app:nav_number="100"
+        app:nav_shadowColor="#f0f0f0"
+        app:nav_startColor="#0086f9"
+        app:nav_text="Money"
+        app:nav_unit="$"
+        app:nav_width="116dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="random" />
+
+</RelativeLayout>

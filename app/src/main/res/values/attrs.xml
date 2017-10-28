@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberArcView">
+        <attr name="nav_startColor" format="color" />
+        <attr name="nav_endColor" format="color" />
+        <attr name="nav_shadowColor" format="color" />
+        <attr name="nav_numberColor" format="color" />
+        <attr name="nav_textColor" format="color" />
+        <attr name="nav_unitColor" format="color" />
+        <attr name="nav_arcWidth" format="dimension" />
+        <attr name="nav_shadowWidth" format="dimension" />
+        <attr name="nav_textSize" format="dimension" />
+        <attr name="nav_numberTextSize" format="dimension" />
+        <attr name="nav_unitTextSize" format="dimension" />
+        <attr name="nav_width" format="dimension" />
+        <attr name="nav_height" format="dimension" />
+        <attr name="nav_textMarginNumber" format="dimension" />
+        <attr name="nav_unitMarginNumber" format="dimension" />
+        <attr name="nav_isFloat" format="boolean" />
+        <attr name="nav_text" format="string" />
+        <attr name="nav_unit" format="string" />
+        <attr name="nav_number" format="float" />
+        <attr name="nav_radian" format="integer" />
+
+
+    </declare-styleable>
+</resources>
